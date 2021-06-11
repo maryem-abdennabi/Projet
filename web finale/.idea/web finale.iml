@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/pidev/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pidev/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/php-http/message-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/php-http/message" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/php-http/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/php-http/httplug" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/php-http/curl-client" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/php-http/discovery" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/ob/highcharts-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/namshi/jose" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/martin-georgiev/social-post-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/martin-georgiev/social-post" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/lexik/jwt-authentication-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/egeloen/json-builder" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/league/csv" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/knplabs/knp-snappy" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/knplabs/knp-snappy-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/knplabs/knp-components" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/knplabs/knp-paginator-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/vresh/twilio-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/facebook/graph-sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/fig/link-util" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/twilio/sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/jdorn/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/egeloen/ckeditor-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/happyr/linkedin-api-client" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/doctrine-cache-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/egyg33k/csv-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/incenteev/composer-parameter-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/swiftmailer-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/symfony" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/doctrine-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/polyfill-php56" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/gregwar/captcha" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/gregwar/captcha-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/polyfill-util" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/polyfill-php70" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/clue/stream-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/polyfill-intl-icu" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/phpunit-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/monolog-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/abraham/twitteroauth" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/symfony/polyfill-apcu" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/zendframework/zend-json" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/friendsofsymfony/user-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/sensiolabs/security-checker" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/willdurand/negotiation" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/friendsofsymfony/rest-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/willdurand/jsonp-callback-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/sensio/generator-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/sensio/framework-extra-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/sensio/distribution-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/pidev/vendor/psr/link" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

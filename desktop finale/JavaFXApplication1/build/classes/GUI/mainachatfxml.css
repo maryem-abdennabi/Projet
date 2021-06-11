@@ -1,0 +1,12 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+
+}
+#achat_id,#achat_client_name,#achat_client_type,#achat_client_address,#achat_etat,#col_valider,#col_edit,#col_delete,#col_details{
+    -fx-background-color: white;
+    -fx-font-size:15px;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="507.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EditProductController">
+   <children>
+      <TextField fx:id="name" layoutX="282.0" layoutY="23.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="type" layoutX="282.0" layoutY="74.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="reference" layoutX="282.0" layoutY="124.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="marque" layoutX="283.0" layoutY="180.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="priceHT" layoutX="285.0" layoutY="237.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="priceTTC" layoutX="285.0" layoutY="292.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="Weight" layoutX="285.0" layoutY="397.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="TVA" layoutX="285.0" layoutY="345.0" prefHeight="25.0" prefWidth="210.0" />
+      <Label layoutX="159.0" layoutY="23.0" prefHeight="17.0" prefWidth="67.0" text="Name : ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="167.0" layoutY="399.0" prefHeight="17.0" prefWidth="67.0" text="Weight :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="166.0" layoutY="347.0" prefHeight="17.0" prefWidth="67.0" text="TVA :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="164.0" layoutY="296.0" prefHeight="17.0" prefWidth="67.0" text="PriceTTC :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="164.0" layoutY="239.0" prefHeight="17.0" prefWidth="67.0" text="PriceHT :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="163.0" layoutY="184.0" prefHeight="17.0" prefWidth="67.0" text="Marque :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="163.0" layoutY="124.0" prefHeight="17.0" prefWidth="67.0" text="Reference :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="160.0" layoutY="74.0" prefHeight="17.0" prefWidth="67.0" text="Type :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="edit" layoutX="562.0" layoutY="212.0" mnemonicParsing="false" onMouseClicked="#Edit_Product" prefHeight="32.0" prefWidth="148.0" style="-fx-background-color: linear-gradient(to right, #cc0000 0%, #800000 100%); -fx-border-width: 2; -fx-border-radius: 5;" text="Edit" textFill="#d0cdcd" />
+      <TextField fx:id="id" layoutX="381.0" layoutY="48.0" prefHeight="25.0" prefWidth="58.0" />
+      <Button fx:id="delete" layoutX="562.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#Delete_Product" prefHeight="32.0" prefWidth="148.0" style="-fx-background-color: linear-gradient(to right, #cc0000 0%, #800000 100%); -fx-border-radius: 5; -fx-border-width: 2;" text="Delete" textFill="#d0cdcd" />
+      <Label fx:id="retour" layoutX="14.0" layoutY="14.0" onMouseClicked="#retour" prefHeight="17.0" prefWidth="56.0" text="&lt;&lt; Back" textFill="#610303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="text6" layoutX="284.0" layoutY="450.0" prefHeight="33.0" prefWidth="133.0" promptText="Add image ..." style="-fx-background-color: linear-gradient(to right, #cc0000 0%, #800000 100%); -fx-font-size: 12px; -fx-border-color: #FFFFFF; -fx-border-radius: 5; -fx-border-width: 2; -fx-text-fill: #FFFFFF;" />
+      <ImageView fitHeight="33.0" fitWidth="56.0" layoutX="431.0" layoutY="452.0" onMouseClicked="#capture" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../javafxapplication1/images/icons8-capture-d'écran-50.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="choose" layoutX="479.0" layoutY="454.0" mnemonicParsing="false" onAction="#upload" style="-fx-background-color: linear-gradient(to right, #cc0000 0%, #800000 100%);" text="Choose" textFill="#cdc8c8" />
+      <ComboBox fx:id="available" layoutX="561.0" layoutY="23.0" prefWidth="150.0" style="-fx-background-color: #c80000;" />
+   </children>
+</AnchorPane>

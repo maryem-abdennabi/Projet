@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchropane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AfficherDeliveryController">
+   <children>
+      <TableView fx:id="tableDelivery" layoutX="70.0" layoutY="85.0" prefHeight="288.0" prefWidth="548.0">
+        <columns>
+          <TableColumn fx:id="tv_referencedelivery" prefWidth="75.0" text="Reference" />
+            <TableColumn fx:id="tv_clientnamedelivery" prefWidth="57.0" text="Client name" />
+            <TableColumn fx:id="tv_drivernamedelivery" prefWidth="76.0" text="Driver name" />
+            <TableColumn fx:id="tv_addressdelivery" prefWidth="92.0" text="Address" />
+            <TableColumn fx:id="tv_statutdelivery" prefWidth="53.0" text="Statut" />
+            <TableColumn fx:id="tv_idvehiculedelivery" prefWidth="73.0" text="ID_Vehicule" />
+            <TableColumn fx:id="col_delete" prefWidth="62.0" text="Delete" />
+            <TableColumn fx:id="col_edit" prefWidth="59.0" text="Edit" />
+        </columns>
+      </TableView>
+      <Button fx:id="btn_ajout" layoutX="590.0" layoutY="33.0" mnemonicParsing="false" onAction="#ajout" text="Ajout" />
+      <Button fx:id="btn_map" layoutX="590.0" layoutY="380.0" mnemonicParsing="false" onAction="#map" text="Map" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EditFournisseurFXMLController">
+   <children>
+      <JFXTextField fx:id="txtFirstName" layoutX="71.0" layoutY="49.0" prefHeight="25.0" prefWidth="352.0" />
+      <JFXTextField fx:id="txtLastName" layoutX="71.0" layoutY="114.0" prefHeight="25.0" prefWidth="352.0" />
+      <JFXTextField fx:id="txtEmail" layoutX="71.0" layoutY="175.0" prefHeight="25.0" prefWidth="352.0" />
+      <JFXTextField fx:id="txtAddress" layoutX="71.0" layoutY="234.0" prefHeight="25.0" prefWidth="352.0" />
+      <JFXTextField fx:id="txtPhoneNumber" layoutX="71.0" layoutY="293.0" prefHeight="25.0" prefWidth="352.0" />
+      <JFXButton fx:id="btnEdit" layoutX="71.0" layoutY="409.0" onAction="#handleEdit" prefHeight="25.0" prefWidth="352.0" text="Edit" style="-fx-background-color: linear-gradient(to bottom, #cc0000 0%, #800000 100%);"  textFill="WHITE"/>
+   </children>
+</AnchorPane>

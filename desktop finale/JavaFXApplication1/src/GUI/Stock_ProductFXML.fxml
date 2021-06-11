@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="400.0" prefWidth="779.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Stock_ProductFXMLController">
+   <children>
+      <TableView fx:id="Table_Stock" layoutX="155.0" layoutY="34.0" onMouseClicked="#Take" prefHeight="309.0" prefWidth="607.0">
+        <columns>
+          <TableColumn fx:id="Product_Name" prefWidth="261.0" text="Product Name" />
+            <TableColumn fx:id="Quantity" prefWidth="134.0" text="Quantity" />
+            <TableColumn fx:id="Unity" prefWidth="210.0" text="Unity" />
+        </columns>
+      </TableView>
+      <Label fx:id="id_label" layoutX="76.0" layoutY="365.0" prefHeight="17.0" prefWidth="49.0" />
+      <Label fx:id="retour" onMouseClicked="#retour" prefHeight="17.0" prefWidth="64.0" text="&lt;&lt; Back" textFill="#610303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      
+   </children>
+</AnchorPane>

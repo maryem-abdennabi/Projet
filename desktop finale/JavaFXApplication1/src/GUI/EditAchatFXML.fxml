@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="519.0" prefWidth="786.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EditAchatFXMLController">
+  
+    <children>
+        
+      <JFXTextField fx:id="txtClient" layoutX="71.0" layoutY="49.0" prefHeight="25.0" prefWidth="352.0" />
+      <JFXTextField fx:id="txtClient_type" layoutX="71.0" layoutY="114.0" prefHeight="25.0" prefWidth="352.0" />
+      <JFXTextField fx:id="txtClient_address" layoutX="71.0" layoutY="175.0" prefHeight="25.0" prefWidth="352.0" />
+      <JFXButton fx:id="btnEdit" layoutX="71.0" layoutY="446.0" onAction="#handleEdit" prefHeight="25.0" prefWidth="352.0" text="Edit" style="-fx-background-color: linear-gradient(to bottom, #cc0000 0%, #800000 100%);"  textFill="WHITE"/>
+      <ListView fx:id="listView" layoutX="71.0" layoutY="259.0" prefHeight="165.0" prefWidth="198.0" />
+      <JFXButton fx:id="delete" layoutX="440.0" layoutY="399.0" onAction="#handleDelete" text="Delete" style="-fx-background-color: linear-gradient(to bottom, #cc0000 0%, #800000 100%);"  textFill="WHITE"/>
+      <Label layoutX="71.0" layoutY="223.0" prefHeight="25.0" prefWidth="163.0" text="Produit commander" />
+    </children>
+</AnchorPane>

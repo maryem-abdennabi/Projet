@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="428.0" prefWidth="903.0" style="-fx-background-color: linear-gradient(to bottom, #cc0000 0%, #800000 100%);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ClientHome">
+    <children>
+      <Pane fx:id="pane" layoutX="2.0" prefHeight="477.0" prefWidth="903.0">
+         <children>
+            <Label layoutX="24.0" layoutY="57.0" prefHeight="20.0" prefWidth="81.0" text="User Name : " textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="client_name" layoutX="117.0" layoutY="61.0" prefHeight="17.0" prefWidth="94.0" style="-fx-text-fill: #FFFFFF;" />
+            <Label layoutX="23.0" layoutY="125.0" text="product name :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="220.0" text="Contain :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="ic_contenu" layoutX="128.0" layoutY="220.0" prefHeight="130.0" prefWidth="487.0" />
+            <Button fx:id="btn" layoutX="271.0" layoutY="355.0" mnemonicParsing="false" onAction="#ajouter" prefHeight="37.0" prefWidth="94.0" style="-fx-background-color: linear-gradient(to right, #c45652 0%, #ff5050 100%); -fx-text-fill: #f0f0f0f0;" text="Send" />
+            <ComboBox fx:id="chx" layoutX="128.0" layoutY="119.0" prefHeight="31.0" prefWidth="150.0" style="-fx-background-color: linear-gradient(to right, #c45652 0%, #ff5050 100%);" />
+            <Button fx:id="btn1" layoutX="422.0" layoutY="355.0" mnemonicParsing="false" onAction="#affiche" prefHeight="37.0" prefWidth="94.0" style="-fx-background-color: linear-gradient(to right, #c45652 0%, #ff5050 100%); -fx-text-fill: #f0f0f0f0;" text="Display" />
+            <Label fx:id="client" layoutX="381.0" layoutY="67.0" prefHeight="17.0" prefWidth="69.0" style="-fx-text-fill: #FFFFFF;" />
+            <Label layoutX="316.0" layoutY="62.0" prefHeight="17.0" prefWidth="58.0" text="ID User :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Text fx:id="bottback" fill="WHITE" layoutX="4.0" layoutY="468.0" onMouseClicked="#back" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;&lt; Back" wrappingWidth="69.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="410.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Complaint" wrappingWidth="169.13671875">
+               <font>
+                  <Font name="Aparajita" size="20.0" />
+               </font>
+            </Text>
+            <Label layoutX="23.0" layoutY="180.0" text="Priority :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="prior" layoutX="125.0" layoutY="175.0" prefHeight="31.0" prefWidth="150.0" style="-fx-background-color: linear-gradient(to right, #c45652 0%, #ff5050 100%);" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane2" prefHeight="475.0" prefWidth="911.0">
+         <children>
+            <HBox layoutX="134.0" layoutY="48.0" prefHeight="59.0" prefWidth="588.0" style="-fx-background-color: linear-gradient(to right, #c45652 0%, #ff5050 100%);">
+               <children>
+                  <Button fx:id="modif" mnemonicParsing="false" onAction="#modifier" prefHeight="51.0" prefWidth="281.0" style="-fx-background-color: linear-gradient(to right, #c45652 0%, #ff5050 100%); -fx-text-fill: #f0f0f0f0;" text="Update">
+                     <HBox.margin>
+                        <Insets left="5.0" right="15.0" top="3.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="delete" mnemonicParsing="false" onAction="#delete" prefHeight="51.0" prefWidth="284.0" style="-fx-background-color: linear-gradient(to right, #c45652 0%, #ff5050 100%); -fx-text-fill: #f0f0f0f0;" text="Delete">
+                     <HBox.margin>
+                        <Insets top="3.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <TextField fx:id="md" layoutX="212.0" layoutY="126.0" prefHeight="80.0" prefWidth="237.0" />
+            <Text fx:id="bottback1" fill="WHITE" layoutX="4.0" layoutY="468.0" onMouseClicked="#back2" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;&lt; Back" wrappingWidth="69.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+           
+            <Text fill="WHITE" layoutX="411.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Complaint" wrappingWidth="169.13671875">
+               <font>
+                  <Font name="Aparajita" size="20.0" />
+               </font>
+            </Text>
+            <Label layoutX="136.0" layoutY="155.0" text="Contain :" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+          
+      </Pane>
+      <TableView fx:id="tablee" layoutX="70.0" layoutY="226.0" prefHeight="188.0" prefWidth="774.0">
+         <columns>
+            <TableColumn fx:id="Userr" prefWidth="110.0" text="Username" />
+            <TableColumn fx:id="Usermail" prefWidth="110.0" text="UserMail" />
+            <TableColumn fx:id="produitt" prefWidth="103.0" text="Produit" />
+            <TableColumn fx:id="contenuu" prefWidth="113.0" text="Contenu" />
+            <TableColumn fx:id="datee" prefWidth="118.0" text="Date" />
+            <TableColumn fx:id="Etat" prefWidth="110.0" text="Etat" />
+            <TableColumn fx:id="Priority" prefWidth="110.0" text="Priority" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+-fx-background-color: linear-gradient(to bottom, #cc0000 0%, #800000 100%);
+
+
+}
+#ajouter{
+    -fx-background-color: white;
+    -fx-font-size: 2em;
+    -fx-start-margin: 1em;
+}
+#four_id,#four_last_name,#four_first_name,#four_email,#col_edit,#col_delete,#col_details,#col_download{
+    -fx-background-color: white;
+    -fx-font-size:15px;
+    
+}
+
+
+#tableFour .column-header{
+    -fx-background-color: rgb(112,128,144);
+    -fx-font-size: 15px;
+    -fx-text-background-color: white;
+    
+}
+#tableFour:focused > .virtual-flow > .clipped-container > .sheet > .table-row-cell .table-cell:selected {
+    -fx-background: -fx-selection-bar;
+    -fx-table-cell-border-color: derive(-fx-selection-bar, 20%);
+}
+
+

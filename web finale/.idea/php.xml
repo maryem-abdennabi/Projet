@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/pidev/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/pidev/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/pidev/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/pidev/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/pidev/vendor/php-http/message" />
+      <path value="$PROJECT_DIR$/pidev/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/pidev/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/pidev/vendor/php-http/curl-client" />
+      <path value="$PROJECT_DIR$/pidev/vendor/php-http/discovery" />
+      <path value="$PROJECT_DIR$/pidev/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/pidev/vendor/ob/highcharts-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/pidev/vendor/martin-georgiev/social-post-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/pidev/vendor/martin-georgiev/social-post" />
+      <path value="$PROJECT_DIR$/pidev/vendor/lexik/jwt-authentication-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/egeloen/json-builder" />
+      <path value="$PROJECT_DIR$/pidev/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/pidev/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/pidev/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/pidev/vendor/knplabs/knp-snappy-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/pidev/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/pidev/vendor/vresh/twilio-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/pidev/vendor/facebook/graph-sdk" />
+      <path value="$PROJECT_DIR$/pidev/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/pidev/vendor/twilio/sdk" />
+      <path value="$PROJECT_DIR$/pidev/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/pidev/vendor/egeloen/ckeditor-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/pidev/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/pidev/vendor/happyr/linkedin-api-client" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/egyg33k/csv-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/pidev/vendor/gregwar/captcha" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/pidev/vendor/gregwar/captcha-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/pidev/vendor/composer" />
+      <path value="$PROJECT_DIR$/pidev/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/pidev/vendor/clue/stream-filter" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/abraham/twitteroauth" />
+      <path value="$PROJECT_DIR$/pidev/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/pidev/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/pidev/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/pidev/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/pidev/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/pidev/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/pidev/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/pidev/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/pidev/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/pidev/vendor/psr/link" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+</project>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="491.0" prefWidth="763.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EntrepotFXMLController">
+   <children>
+      <Button fx:id="add" layoutX="638.0" layoutY="88.0" mnemonicParsing="false" onMouseClicked="#Add_Entrepot" prefHeight="45.0" prefWidth="112.0" text="       New Entrepot" />
+      <Button fx:id="Convert" layoutX="638.0" layoutY="217.0" mnemonicParsing="false" onMouseClicked="#ConvertPDF" prefHeight="45.0" prefWidth="112.0" text="      Convert PDF" />
+      <Button fx:id="add_Product" layoutX="638.0" layoutY="153.0" mnemonicParsing="false" onMouseClicked="#Product_List" prefHeight="45.0" prefWidth="112.0" text="   Product List" />
+      <TextField fx:id="sarch" layoutX="438.0" layoutY="8.0" onAction="#seaa" onKeyTyped="#search1" prefHeight="26.0" prefWidth="185.0" />
+      <Pagination fx:id="pagination" layoutX="7.0" layoutY="41.0" prefHeight="422.0" prefWidth="567.0" />
+      <TableView fx:id="Table" layoutX="4.0" layoutY="41.0" onMouseClicked="#takev" prefHeight="374.0" prefWidth="631.0">
+         <columns>
+            <TableColumn fx:id="address" prefWidth="106.0" text="Address" />
+            <TableColumn fx:id="nbr" prefWidth="83.0" text="nbr" />
+            <TableColumn fx:id="phone" minWidth="0.0" prefWidth="101.0" text="Phone" />
+            <TableColumn fx:id="phone_bis" prefWidth="92.0" text="Phone Bis" />
+            <TableColumn fx:id="latitude" prefWidth="107.0" text="Latitude" />
+            <TableColumn fx:id="longitude" prefWidth="137.0" text="Longitude" />
+         </columns>
+      </TableView>
+      <Button fx:id="stocks" layoutX="638.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#Stocks" prefHeight="45.0" prefWidth="112.0" text="Stocks" />
+      <Button fx:id="facebook" layoutX="595.0" layoutY="432.0" mnemonicParsing="false" onMouseClicked="#facebookRedirect" prefHeight="25.0" prefWidth="28.0" style="-fx-background-radius: 50;">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/hp/Desktop/projet%20desktop/pi_desktop_app-master%20(1)/pi_desktop_app-master/src/image/iconfacebook.png" />
+               </source>
+            </ImageInput>
+         </effect></Button>
+      <Button fx:id="twitter" layoutX="638.0" layoutY="432.0" mnemonicParsing="false" onMouseClicked="#TwitterRedirect" prefHeight="36.0" prefWidth="28.0" style="-fx-background-radius: 50;">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/hp/Desktop/projet%20desktop/pi_desktop_app-master%20(1)/pi_desktop_app-master/src/image/icontwitter.png" />
+               </source>
+            </ImageInput>
+         </effect></Button>
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="640.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/add.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="640.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/list.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="640.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/pdf.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="643.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/stock2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="search" layoutX="355.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#searchByAddress" prefHeight="25.0" prefWidth="72.0" text="Search" />
+      <Button fx:id="load" layoutX="682.0" layoutY="30.0" mnemonicParsing="false" onMouseClicked="#load" prefHeight="8.0" prefWidth="14.0" style="-fx-background-radius: 50;" text="Load">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/hp/Desktop/projet%20desktop/pi_desktop_app-master%20(1)/pi_desktop_app-master/src/image/refresh.png" />
+               </source>
+            </ImageInput>
+         </effect>
+         
+      </Button>
+      
+   </children>
+</AnchorPane>

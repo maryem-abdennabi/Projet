@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="add_form" prefHeight="404.0" prefWidth="493.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Add_EntrepotController">
+   <children>
+      <TextField fx:id="jaddress" layoutX="205.0" layoutY="29.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jnbr" layoutX="205.0" layoutY="80.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jphone" layoutX="205.0" layoutY="130.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jphone_bis" layoutX="206.0" layoutY="181.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jlati" layoutX="206.0" layoutY="232.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jlag" layoutX="206.0" layoutY="282.0" prefHeight="25.0" prefWidth="210.0" />
+      <Label layoutX="95.0" layoutY="31.0" prefHeight="17.0" prefWidth="67.0" text="Address : ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="97.0" layoutY="182.0" prefHeight="17.0" prefWidth="67.0" text="Phone Bis :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="96.0" layoutY="132.0" prefHeight="17.0" prefWidth="67.0" text="Phone :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="96.0" layoutY="82.0" prefHeight="17.0" prefWidth="67.0" text="nbr :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="96.0" layoutY="232.0" prefHeight="17.0" prefWidth="67.0" text="latitude :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="96.0" layoutY="283.0" prefHeight="17.0" prefWidth="67.0" text="longitude :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="Add_btn" layoutX="94.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#Add_Entrepot" prefHeight="32.0" prefWidth="148.0" style="-fx-background-color: linear-gradient(to right, #cc0000 0%, #800000 100%);" text="Add" textFill="#ddd9d9" />
+      <Button fx:id="reset" layoutX="275.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#Reset" prefHeight="32.0" prefWidth="148.0" style="-fx-background-color: linear-gradient(to right, #cc0000 0%, #800000 100%);" text="Reset" textFill="#ddd9d9" />
+      <Label fx:id="nbr_test" layoutX="213.0" layoutY="103.0" prefHeight="17.0" prefWidth="210.0" />
+      <Label fx:id="address_test" layoutX="211.0" layoutY="52.0" prefHeight="17.0" prefWidth="210.0" />
+      <Label fx:id="phone_test" layoutX="247.0" layoutY="153.0" prefHeight="17.0" prefWidth="210.0" />
+      <Label fx:id="phone_bis_test" layoutX="213.0" layoutY="209.0" prefHeight="17.0" prefWidth="210.0" />
+      <Label fx:id="lat_test" layoutX="214.0" layoutY="259.0" prefHeight="17.0" prefWidth="210.0" />
+      <Label fx:id="long_test" layoutX="215.0" layoutY="309.0" prefHeight="17.0" prefWidth="210.0" />
+      <Label fx:id="retour" layoutX="3.0" layoutY="4.0" onMouseClicked="#retour" text="&lt;&lt; Back" textFill="#610303" />
+      
+   </children>
+</AnchorPane>

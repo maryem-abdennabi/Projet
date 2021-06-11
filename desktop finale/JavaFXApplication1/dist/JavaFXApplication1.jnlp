@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApplication1.jnlp">
+  <information>
+    <title>JavaFXApplication1</title>
+    <vendor>HP</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApplication1.jar" size="983147" download="eager" />
+    <jar href="lib\bcrypt-0.4.1.jar" size="42979" download="eager" />
+    <jar href="lib\bcrypt-0.9.0.jar" size="41104" download="eager" />
+    <jar href="lib\bytes-0.4.6.jar" size="65802" download="eager" />
+    <jar href="lib\bytes-1.3.0.jar" size="81590" download="eager" />
+    <jar href="lib\controlsfx-8.0.1.jar" size="296347" download="eager" />
+    <jar href="lib\controlsfx-8.40.10.jar" size="954085" download="eager" />
+    <jar href="lib\controlsfx-8.40.11.jar" size="985420" download="eager" />
+    <jar href="lib\controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="lib\controlsfx-samples-8.40.14.jar" size="725707" download="eager" />
+    <jar href="lib\core-3.3.0.jar" size="541078" download="eager" />
+    <jar href="lib\itextpdf-5.4.1-sources.jar" size="1934883" download="eager" />
+    <jar href="lib\itextpdf-5.4.1.jar" size="1898417" download="eager" />
+    <jar href="lib\javase-3.3.0.jar" size="41451" download="eager" />
+    <jar href="lib\javax.mail.jar" size="659033" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\restfb-1.18.0.jar" size="264745" download="eager" />
+    <jar href="lib\spring-security-crypto-5.2.0.RELEASE.jar" size="79958" download="eager" />
+    <jar href="lib\twilio-7.47.5-jar-with-dependencies.jar" size="10146514" download="eager" />
+    <jar href="lib\twitter4j-core-4.0.6.jar" size="305357" download="eager" />
+    <jar href="lib\webcam-capture-0.3.12.jar" size="428314" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXApplication1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="GUI.JavaFXApplication1"  name="JavaFXApplication1" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="add_form" prefHeight="521.0" prefWidth="782.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Add_ProductController">
+   <children>
+      <TextField fx:id="jname" layoutX="342.0" layoutY="31.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jtype" layoutX="342.0" layoutY="82.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jreference" layoutX="342.0" layoutY="132.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jmarque" layoutX="341.0" layoutY="188.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jpriceHT" layoutX="343.0" layoutY="245.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jpriceTTC" layoutX="342.0" layoutY="305.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jWeight" layoutX="343.0" layoutY="418.0" prefHeight="25.0" prefWidth="210.0" />
+      <TextField fx:id="jTVA" layoutX="342.0" layoutY="364.0" prefHeight="25.0" prefWidth="210.0" />
+      <Label layoutX="208.0" layoutY="34.0" prefHeight="17.0" prefWidth="67.0" text="Name : ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="217.0" layoutY="420.0" prefHeight="17.0" prefWidth="67.0" text="Weight :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="216.0" layoutY="368.0" prefHeight="17.0" prefWidth="67.0" text="TVA :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="215.0" layoutY="307.0" prefHeight="17.0" prefWidth="67.0" text="PriceTTC :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="215.0" layoutY="250.0" prefHeight="17.0" prefWidth="67.0" text="PriceHT :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="215.0" layoutY="195.0" prefHeight="17.0" prefWidth="67.0" text="Marque :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="212.0" layoutY="135.0" prefHeight="17.0" prefWidth="67.0" text="Reference :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="209.0" layoutY="85.0" prefHeight="17.0" prefWidth="67.0" text="Type :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="Add_btn" layoutX="624.0" layoutY="157.0" mnemonicParsing="false" onMouseClicked="#Add_Product" prefHeight="32.0" prefWidth="135.0" style="-fx-background-color: linear-gradient(to right, #cc0000 0%, #800000 100%); -fx-border-radius: 5;" text="Add Product" textFill="#d0cdcd" />
+      <Button fx:id="reset" layoutX="624.0" layoutY="213.0" mnemonicParsing="false" onMouseClicked="#Reset" prefHeight="32.0" prefWidth="135.0" style="-fx-background-color: linear-gradient(to right, #cc0000 0%, #800000 100%); -fx-border-radius: 5;" text="Reset" textFill="#d0cdcd" />
+      <ImageView fitHeight="25.0" fitWidth="23.0" layoutX="326.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="retour" layoutX="8.0" layoutY="6.0" onMouseClicked="#retour" prefHeight="17.0" prefWidth="55.0" text="&lt;&lt; Back" textFill="#610303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="text6" layoutX="330.0" layoutY="461.0" prefHeight="33.0" prefWidth="133.0" promptText="Add image ..." style="-fx-background-color: linear-gradient(to right, #cc0000 0%, #800000 100%); -fx-font-size: 12px; -fx-border-color: #FFFFFF; -fx-border-radius: 5; -fx-border-width: 2; -fx-text-fill: #FFFFFF;" />
+      <ImageView fitHeight="33.0" fitWidth="56.0" layoutX="477.0" layoutY="463.0" onMouseClicked="#capture" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../javafxapplication1/images/icons8-capture-d'écran-50.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="choose" layoutX="525.0" layoutY="465.0" mnemonicParsing="false" onAction="#upload" style="-fx-background-color: linear-gradient(to right, #cc0000 0%, #800000 100%); -fx-border-radius: 5;" text="Choose" textFill="#d0cdcd" />
+   </children>
+</AnchorPane>
